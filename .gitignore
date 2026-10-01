@@ -1,0 +1,16 @@
+# KiCad local state and caches
+*.kicad_prl
+fp-info-cache
+*.lck
+
+# KiCad autosaves and backups
+_autosave-*
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb~
+*.kicad_sch~
+.history/
+
+# macOS metadata
+.DS_Store

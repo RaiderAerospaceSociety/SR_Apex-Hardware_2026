@@ -1,0 +1,90 @@
+(footprint "MH_M3-Pad"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b93ef7ca-bc2d-4ca6-a8d3-f9b591f9f415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MH_M3-Pad"
+		(at 10 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63e5df91-de94-455a-9b50-844ba3d22207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bde5d051-0417-4363-b840-c6bc61dc6674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1025fac1-4969-420b-aba0-9d444c555ac8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be4c58e5-7017-47ad-a551-6a0d782ba2c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b412f47-dc61-4386-a9f5-ec71904e81e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "976a39b9-f5a7-4f56-b9e4-1a136f424e70")
+	)
+	(embedded_fonts no)
+)

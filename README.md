@@ -1,6 +1,7 @@
 # Hardware
 
 This hardware project has four stackable PCBs—Power, Control, Sensor, and Telemetry—connected through pin headers.
+These PCBS are actually connected with ribbon cables
 
 ## Folder structure
 

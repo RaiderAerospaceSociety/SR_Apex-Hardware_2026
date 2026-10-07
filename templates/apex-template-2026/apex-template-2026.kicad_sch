@@ -1746,7 +1746,7 @@
 	)
 	(symbol
 		(lib_id "APEX_Symbols:ADXL375")
-		(at 101.6 72.39 0)
+		(at 87.63 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1757,7 +1757,7 @@
 		(fields_autoplaced yes)
 		(uuid "683030b1-9219-4133-a188-b86f384f4130")
 		(property "Reference" "U1"
-			(at 101.6 58.42 0)
+			(at 87.63 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1767,7 +1767,7 @@
 			)
 		)
 		(property "Value" "ADXL375"
-			(at 101.6 60.96 0)
+			(at 87.63 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(property "Footprint" "APEX_FOOTPRINTS:ADXL375_LGA_CC-14-1_ADI"
-			(at 101.6 135.128 0)
+			(at 87.63 124.968 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adxl375.pdf"
-			(at 101.6 110.998 0)
+			(at 87.63 100.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1799,7 @@
 			)
 		)
 		(property "Description" "3-axis ±200 g digital accelerometer, I²C/SPI, 14-terminal LGA (CC-14-1)"
-			(at 101.6 137.668 0)
+			(at 87.63 127.508 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property "LCSC" "C481898"
-			(at 101.346 113.284 0)
+			(at 87.376 103.124 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

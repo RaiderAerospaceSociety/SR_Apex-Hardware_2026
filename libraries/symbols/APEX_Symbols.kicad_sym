@@ -13300,6 +13300,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "LCSC" "C4153167"
@@ -13311,6 +13312,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "ki_keywords" "GNSS GPS receiver module u-blox M10 MAX-M10S-00B"

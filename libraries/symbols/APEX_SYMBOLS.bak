@@ -1153,8 +1153,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "APEX_FOOTPRINTS:MAX-M10S-00B_XCVR"
+			(at 0.762 -19.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

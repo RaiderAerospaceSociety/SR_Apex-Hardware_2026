@@ -1,0 +1,229 @@
+(footprint "BAT54C_SOT23_Nexperia"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Nexperia SOT23 (TO-236AB) 3-pin 2.9x1.3mm P1.9mm, reflow land pattern per Nexperia BAT54C datasheet (1 July 2022) Fig. 6 sot023_fr")
+	(tags "BAT54C BAT54C,215 SOT23 SOT-23 TO-236AB Schottky")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fc7b09ca-cdcf-48e7-9848-2504cce76660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT54C_SOT23_Nexperia"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31a71dc7-e001-4512-830f-5c0fcb8170c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54C.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "220e4ca6-0dbe-49bc-bc7c-f625fc20dddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "30V 200mA dual Schottky barrier diode, common cathode, SOT23 (TO-236AB)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acf18f8a-85f1-4659-8bd9-4e0d98cfa45d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C37704"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a9f55803-22a1-4ca1-9621-8b20014d01ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.55 -1.55)
+		(end 0.75 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c731b5d2-4f98-4777-ab21-57107204ac36")
+	)
+	(fp_line
+		(start 0.75 -1.55)
+		(end 0.75 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d937f0-4878-449b-97a5-9d18e7bc33e5")
+	)
+	(fp_line
+		(start -0.75 1.55)
+		(end 0.75 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6e6a587-d98a-42f4-b01a-2c3ef65fd7a9")
+	)
+	(fp_line
+		(start 0.75 0.6)
+		(end 0.75 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55ef916e-a25c-4c26-a80c-482d1f416943")
+	)
+	(fp_circle
+		(center -1.05 -1.6)
+		(end -0.95 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b5de86ab-bdbf-4a76-9d7d-dfc6e0383387")
+	)
+	(fp_line
+		(start -0.35 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9394cf0-91de-4daa-9aef-430e48cf2e4c")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d13b06e-40c5-469e-b51f-fed82aaf2769")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03e788fc-5400-4dc4-ac7a-e5dc09743060")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a26a08a-3b99-403e-834e-04a75239648f")
+	)
+	(fp_line
+		(start -0.65 -1.15)
+		(end -0.35 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c85afa6-2315-4322-a956-fd1f66bf1cb2")
+	)
+	(fp_rect
+		(start -1.6 -1.75)
+		(end 1.6 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "95319abb-bbb6-4025-bd43-35a92d9d3cfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b23ed35-d8d4-4a32-9662-5bd5b8f90902")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.05)
+		(uuid "2de644fc-b23f-4153-91e3-e22d4a1ac2d1")
+	)
+	(pad "2" smd roundrect
+		(at -1 0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.05)
+		(uuid "5f76d883-16d9-4baa-9b29-d599ecd651e4")
+	)
+	(pad "3" smd roundrect
+		(at 1 0)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.05)
+		(uuid "024f70a8-a757-4640-9bda-b843dcc6e74a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/BAT54C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

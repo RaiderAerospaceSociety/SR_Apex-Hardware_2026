@@ -1,0 +1,241 @@
+(footprint "LM66200_DRL0008A_TI"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TI DRL0008A SOT-5X3 8-pin 2.1x1.2mm body P0.5mm, land pattern per TI 4224486/G (LM66200 datasheet SLVSG04)")
+	(tags "LM66200DRLR ideal diode power mux SOT-583 SOT-5X3 DRL0008A")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6b7da62-f8e1-4367-ba41-b6f3aae2437d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM66200_DRL0008A_TI"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c356a09-f586-419e-b207-43bdcfcb2962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66200.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c06a1a8-7f73-4e87-b5df-e0a5da016430")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1.6V to 5.5V, 2.5A dual ideal diode with automatic switchover, active-low enable, open-drain status, SOT-5X3-8 (DRL)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da10fe96-452a-44aa-a07a-d549fe73b505")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C3235556"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cec66cf4-c4b8-4be7-ac3e-b828cea760b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.6 -1.15)
+		(end 0.6 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1011d9a-b8ed-4bf3-b6d0-5627ab8b5e8f")
+	)
+	(fp_line
+		(start -0.6 1.15)
+		(end 0.6 1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bcbdd0e-ea3d-489b-98e5-02acdf651f81")
+	)
+	(fp_circle
+		(center -1.35 -0.75)
+		(end -1.25 -0.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6a8c444a-3c60-4d79-8897-0fe0eb61b88b")
+	)
+	(fp_line
+		(start -0.3 -1.05)
+		(end 0.6 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "068d3488-5efe-455b-82aa-d610d5084b3c")
+	)
+	(fp_line
+		(start 0.6 -1.05)
+		(end 0.6 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9335c9dc-3957-49b2-a2b1-282e8146d8c0")
+	)
+	(fp_line
+		(start 0.6 1.05)
+		(end -0.6 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3dc1b27b-aef5-49cf-bee7-56c29c80e4b8")
+	)
+	(fp_line
+		(start -0.6 1.05)
+		(end -0.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5db63fe-2722-42a9-8a06-b7508881c35b")
+	)
+	(fp_line
+		(start -0.6 -0.75)
+		(end -0.3 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d91ab11-d032-41ee-94d7-a298874bb3cb")
+	)
+	(fp_rect
+		(start -1.35 -1.4)
+		(end 1.35 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "08f5ca72-7370-4043-8fa4-e0f6359736a6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "76269036-a2f1-4ab9-97b4-f5fa28d2ffcf")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.74 -0.75)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "1403add2-854c-46f0-ba87-25978d78bcd5")
+	)
+	(pad "2" smd roundrect
+		(at -0.74 -0.25)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "274027ce-f0e0-440e-9271-41db8cafab9d")
+	)
+	(pad "3" smd roundrect
+		(at -0.74 0.25)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "ee8fa206-5e02-4600-9137-52ea0745aeef")
+	)
+	(pad "4" smd roundrect
+		(at -0.74 0.75)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "37bb0b39-bd96-46e6-94c9-13a15a5f2850")
+	)
+	(pad "5" smd roundrect
+		(at 0.74 0.75)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "474bf461-2f31-4353-a068-77a87806fa47")
+	)
+	(pad "6" smd roundrect
+		(at 0.74 0.25)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "5e670dbf-7d58-439b-ae57-061351778e5e")
+	)
+	(pad "7" smd roundrect
+		(at 0.74 -0.25)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "057f4443-7604-4a8c-840c-24e75d3fb07d")
+	)
+	(pad "8" smd roundrect
+		(at 0.74 -0.75)
+		(size 0.67 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "bb85cc0e-b731-4a88-af4c-070396941f7b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/LM66200.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

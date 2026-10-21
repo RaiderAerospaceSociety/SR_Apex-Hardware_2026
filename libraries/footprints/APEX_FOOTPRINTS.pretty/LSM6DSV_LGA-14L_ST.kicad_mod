@@ -1,0 +1,283 @@
+(footprint "LSM6DSV_LGA-14L_ST"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ST LGA-14L 2.5x3.0x0.83mm P0.5mm (LSM6DSV), package per DS13476 Rev 5 Fig. 31, PCB lands per ST TN0018 (package land +0.1mm each dimension)")
+	(tags "LSM6DSV LSM6DSVTR LGA-14L IMU ST")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b7f91ff-8d93-4d3d-bb13-013d3eb8d1f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LSM6DSV_LGA-14L_ST"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7897c0b4-4736-45fb-82d1-a149ca274633")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3ac131c-42ec-4533-8343-f5c31a772061")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "6-axis IMU, accelerometer + gyroscope, I2C/SPI/I3C, LGA-14L 2.5x3.0x0.83mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40ce9c89-c12f-464a-acb3-0b70d970cb3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C5267399"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a0228c1-b7db-48dc-a061-af3bf91537b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.45)
+		(end 1.5 -1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "434b91d7-8c65-44fe-8eea-75aa26d87bcb")
+	)
+	(fp_line
+		(start -1.5 1.45)
+		(end 1.5 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23b3c729-c72b-47e2-ba68-2e8dda0c8668")
+	)
+	(fp_circle
+		(center -1.75 -0.75)
+		(end -1.65 -0.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "efdaf5f9-da91-455d-99e3-ccf8c50fbaa7")
+	)
+	(fp_line
+		(start -1.1 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5764fb06-88ee-455d-97ff-1bf3992fe08c")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10245989-23dd-4d60-9a92-4cd96355c742")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d9c1b91-5b69-495b-8921-5bd1c1e1b0a3")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04bf8db7-2fcb-41e6-9a33-cc15250e80a3")
+	)
+	(fp_line
+		(start -1.5 -0.85)
+		(end -1.1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb50abae-51d3-490b-95ef-080a07a44fd7")
+	)
+	(fp_rect
+		(start -1.9 -1.55)
+		(end 1.9 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b86b52d9-b844-4ebf-a0f8-983eb1a578de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9d6fabb8-13db-4363-a545-fd4b6f10e434")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1625 -0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "f8bdb5ec-9b3c-4135-89a0-cef35fdaf5ab")
+	)
+	(pad "2" smd roundrect
+		(at -1.1625 -0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "e0c05d40-9f72-4e1a-a7fc-dc68cc0a9593")
+	)
+	(pad "3" smd roundrect
+		(at -1.1625 0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "730c332a-457c-466c-ba39-01474443d23e")
+	)
+	(pad "4" smd roundrect
+		(at -1.1625 0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "6a439937-ad3a-4cb8-8521-2684b5b8b784")
+	)
+	(pad "5" smd roundrect
+		(at -0.5 0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "9a4390c2-9eae-4d58-8c90-0f99d54a75da")
+	)
+	(pad "6" smd roundrect
+		(at 0 0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b367627e-8d39-4e30-a5bc-49bf15f6b96a")
+	)
+	(pad "7" smd roundrect
+		(at 0.5 0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "ef7254cf-db32-4861-9ae1-d6d5a9a571a0")
+	)
+	(pad "8" smd roundrect
+		(at 1.1625 0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "daa618a8-b26a-4906-8927-b2f02f2e6b06")
+	)
+	(pad "9" smd roundrect
+		(at 1.1625 0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "945138ef-719b-4fe8-9d7b-5739744ed0e9")
+	)
+	(pad "10" smd roundrect
+		(at 1.1625 -0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b44c33f1-50dc-4f0f-a589-01c29b3b681c")
+	)
+	(pad "11" smd roundrect
+		(at 1.1625 -0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "c995b36a-15ad-42d6-a9ae-899a4ff72d7e")
+	)
+	(pad "12" smd roundrect
+		(at 0.5 -0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "634230a5-fe17-4400-bead-f6450b53b3bd")
+	)
+	(pad "13" smd roundrect
+		(at 0 -0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "1584e659-7c41-44d1-8c5b-6f32a3c416ad")
+	)
+	(pad "14" smd roundrect
+		(at -0.5 -0.9125)
+		(size 0.35 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "92ac3c71-47b0-44b6-aef2-b0287af5dd1d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/LSM6DSV.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

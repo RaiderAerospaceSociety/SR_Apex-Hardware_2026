@@ -1,0 +1,149 @@
+(footprint "FB_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Ferrite bead SMD 0402 (1005 Metric), generic, IPC-7351 nominal land pattern (copper identical to KiCad stock Inductor_SMD:L_0402_1005Metric)")
+	(tags "ferrite bead 0402 1005 generic")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da0c3dfe-c3a6-4f79-819b-7ba9438e132b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FB_0402"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfed27d8-9558-450e-a4d0-5a86bcfbdaaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b818d58c-70b9-4a8c-94d8-5c00fe1988d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic ferrite bead, 0402 (1005 Metric) SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea9d6f9-a345-4f29-b329-a056045b78f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ed09be70-617c-425a-b507-e176a94e8851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.55)
+		(end 0.5 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39500074-a3e5-4367-9d39-86ba70bf33c5")
+	)
+	(fp_line
+		(start -0.5 0.55)
+		(end 0.5 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e5f8f36-5e68-47f4-9c70-3cc43f13e651")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4548a464-e374-4378-944d-99f1fd1e2828")
+	)
+	(fp_rect
+		(start -1.05 -0.65)
+		(end 1.05 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c231dcf9-5b01-45ca-b407-f8b6b5861055")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a9b46cd-bc34-4670-a7fb-be9b789d7b63")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.037)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "25f1f523-274d-432a-972b-8a40684e9533")
+	)
+	(pad "2" smd roundrect
+		(at 0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "015dcb6a-f36e-43e8-bc53-da8a49557418")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "APEX_FOOTPRINTS") (type "KiCad") (uri "${KIPRJMOD}/../../libraries/footprints/APEX_FOOTPRINTS.pretty") (options "") (descr ""))
+)

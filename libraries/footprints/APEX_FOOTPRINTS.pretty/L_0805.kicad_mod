@@ -1,0 +1,149 @@
+(footprint "L_0805"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0805 (2012 Metric), generic, IPC-7351 nominal land pattern (copper identical to KiCad stock Inductor_SMD:L_0805_2012Metric)")
+	(tags "inductor 0805 2012 generic")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "213084bb-4032-41d2-94e7-3c04a7c97c88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_0805"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0128565d-64c1-4ea8-812a-db5f54296738")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4431b0fe-2108-45ea-b0af-7c0c6e025ad2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic inductor, 0805 (2012 Metric) SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3babfcf5-3032-4628-9105-c46846ffbefd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "13955b73-a568-49d8-9557-feff4cb647b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.85)
+		(end 1 -0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4beb34ea-3276-4682-b92e-d6b39ecb1248")
+	)
+	(fp_line
+		(start -1 0.85)
+		(end 1 0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f4f758c-9a3e-40d0-a153-a5c705ab6786")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1a29867e-8b87-409b-99a9-12d4a6e2bc6d")
+	)
+	(fp_rect
+		(start -1.75 -0.95)
+		(end 1.75 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "72fdfea8-b16b-4d8b-99ac-4d4666b850cb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5e4dec6-845a-4276-846f-9560c2c96edc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "48e543a0-b0eb-444d-8cef-b8debd1a8175")
+	)
+	(pad "2" smd roundrect
+		(at 1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5b6ec72c-dd65-4d69-b1ff-6fd94c575014")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/L_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

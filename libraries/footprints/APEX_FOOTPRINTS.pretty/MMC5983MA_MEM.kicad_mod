@@ -51,6 +51,18 @@
 			)
 		)
 	)
+	(property "LCSC" "C404329"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7510369e-218a-45b8-969a-2ed067a4fbe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line

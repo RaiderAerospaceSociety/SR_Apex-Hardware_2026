@@ -438,13 +438,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../../libraries/3dmodels/UJ20-C-H-G-SMT-5-P16.step"
 		(offset
-			(xyz 0 -4 1.62)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

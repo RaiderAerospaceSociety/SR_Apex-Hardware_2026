@@ -167,16 +167,17 @@
 		(layer "F.Fab")
 		(uuid "99bd9804-7049-4d90-a291-23c67be4742c")
 	)
-	(fp_rect
-		(start -5.45 -7.2)
-		(end 5.45 7.6)
+	(fp_poly
+		(pts
+			(xy -5.45 -7.2) (xy 5.45 -7.2) (xy 5.45 6.3) (xy 6 6.3) (xy 6 6.9) (xy 5.45 6.9) (xy 5.45 7.6) (xy -5.45 7.6)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "155c04b7-881e-487d-8572-90a452c02622")
+		(uuid "213e8d32-0a11-476d-ad5d-fd5dc976f9fa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.65 0)

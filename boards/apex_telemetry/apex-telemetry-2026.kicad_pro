@@ -524,7 +524,7 @@
     ]
   },
   "meta": {
-    "filename": "apex-template-2026.kicad_pro",
+    "filename": "apex-telemetry-2026.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -554,7 +554,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/GPS_RX"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -562,6 +567,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -679,18 +685,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "apex-template-2026.kicad_sch",
-        "name": "apex-template-2026",
+        "filename": "apex-telemetry-2026.kicad_sch",
+        "name": "apex-telemetry-2026",
         "uuid": "e82f86d1-bc15-466a-bf95-b7a389511473"
       }
     ],
-    "used_designators": "J1-4",
+    "used_designators": "R1-2,J1-4,U1,D1-2,L1,#PWR2-9,C1-3",
     "variants": []
   },
   "sheets": [
     [
       "e82f86d1-bc15-466a-bf95-b7a389511473",
-      "apex-template-2026"
+      "apex-telemetry-2026"
     ]
   ],
   "text_variables": {},

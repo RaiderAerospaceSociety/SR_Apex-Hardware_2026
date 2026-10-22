@@ -165,6 +165,7 @@
 			(at -4 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bcbf6a1c-2876-4e55-9f31-aa949d58ba11")
 			(effects
 				(font
@@ -267,6 +268,7 @@
 			(at -4 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "16a2d1c3-be11-4599-866f-10192f8e12b6")
 			(effects
 				(font
@@ -369,6 +371,7 @@
 			(at 4 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "919ae74f-7457-4c22-8e75-4c58341f7d7e")
 			(effects
 				(font
@@ -471,6 +474,7 @@
 			(at 4 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ef1b8ad1-bfb9-46fe-a741-36f1c3f2aa40")
 			(effects
 				(font
@@ -570,7 +574,7 @@
 		(end 121.5 121.5)
 		(radius 4.5)
 		(stroke
-			(width 0.5)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)

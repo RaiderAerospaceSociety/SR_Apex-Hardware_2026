@@ -1,0 +1,343 @@
+(footprint "RF4463PRO-433"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.2 0)
+		(layer "F.SilkS")
+		(uuid "75ff0cf9-e115-4a32-905a-81844e2e9f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "RF4463PRO-433"
+		(at 0 -13.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3876c0fc-07d9-4feb-8063-d97be7771fb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nicerf.com/pdf/rf4463pro-100mw-high-performance-wireless-transceiver-module-v3.3.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0397819-6113-4c4d-84b1-609c166e763b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Description" "NiceRF RF4463PRO-433 Si4463 433 MHz transceiver module, 20 dBm, SPI, SMD 17x17.3 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c541a7b-0557-453e-a9b8-3129adf8503b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "LCSC" "C3001526"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2a0b4fea-cf9d-4571-8cb5-b764f8e7c93a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.3 -9.1)
+		(end 9 -9.1)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f4f2dbe-a633-4b12-add4-e9a5357c3703")
+	)
+	(fp_line
+		(start -9.3 -7.8)
+		(end -9.3 -9.1)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "985eee76-b0ea-4f18-9319-9c9b68401dc0")
+	)
+	(fp_line
+		(start -9.3 9.05)
+		(end -9.3 7.75)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea83d59a-d759-49de-ac60-a9bf2c2832a8")
+	)
+	(fp_line
+		(start -9.3 9.05)
+		(end 9 9.05)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26222af3-7ecd-49d3-993d-70408e9ce7df")
+	)
+	(fp_line
+		(start -6.4 -7.9)
+		(end -6.4 8)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90d5912e-5bfc-445d-9d6e-dfbcc2044e26")
+	)
+	(fp_line
+		(start -6.4 8)
+		(end 8 8)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cb6bf5bb-90a5-4204-aa74-a3940b3f8e97")
+	)
+	(fp_line
+		(start 6 -7.9)
+		(end -6.4 -7.9)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc65b719-8fbc-45a9-a139-0ebf5dfb008d")
+	)
+	(fp_line
+		(start 6 -4.8)
+		(end 6 -7.9)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13bb8f62-005a-4c2b-aa04-a45813ae7840")
+	)
+	(fp_line
+		(start 8 -4.8)
+		(end 6 -4.8)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8f88176-ba83-4624-abc2-d8803ba98016")
+	)
+	(fp_line
+		(start 8 8)
+		(end 8 -4.8)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98f48ab3-09f3-4e3f-80a1-f9a891ae1684")
+	)
+	(fp_line
+		(start 9 -9.1)
+		(end 9 -8.2)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6722a3c-a0f7-4da5-a81a-df2085c5596e")
+	)
+	(fp_line
+		(start 9 9.05)
+		(end 9 -5.1)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "052929e2-a422-4a09-bc41-f2aa83c91391")
+	)
+	(fp_circle
+		(center -10 -8.4)
+		(end -10 -8.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ae0b4ad8-50b6-4398-a848-7821bc7d1099")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aa8f6e91-1ec2-47a1-8f7a-faa59af1053e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -8.594 -7.01)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3cb746e1-acb7-4bb3-a23c-cfd7cd979854")
+	)
+	(pad "2" smd rect
+		(at -8.6 -5.74)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15e0924a-e148-437f-aff0-a21e69169379")
+	)
+	(pad "3" smd rect
+		(at -8.6 -4.47)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f2f1d3cf-e41f-4025-a755-79badfea6cdc")
+	)
+	(pad "4" smd rect
+		(at -8.6 -3.2)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f4e2d22-6eae-4859-906e-eabe2bcd872a")
+	)
+	(pad "5" smd rect
+		(at -8.6 -1.93)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "663e0e68-58e0-490c-8e0d-83919168af65")
+	)
+	(pad "6" smd rect
+		(at -8.6 -0.66)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0a5ac5b-480f-4462-8227-51d55f13d629")
+	)
+	(pad "7" smd rect
+		(at -8.6 0.61)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ec309c6-bfdd-4c55-a0dc-7f91a0788df9")
+	)
+	(pad "8" smd rect
+		(at -8.6 1.88)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb07b704-b65b-4e97-b22a-37895ae4394d")
+	)
+	(pad "9" smd rect
+		(at -8.6 3.15)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79afda80-18ee-44a3-851a-35db753f545d")
+	)
+	(pad "10" smd rect
+		(at -8.6 4.42)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9ffbe80-6eef-4fc7-8a64-689e19ab4ec4")
+	)
+	(pad "11" smd rect
+		(at -8.6 5.69)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2ad108a-1869-4dfe-8114-43cf2a953210")
+	)
+	(pad "12" smd rect
+		(at -8.594 6.96)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94843455-f9f3-4193-aee7-e6236f35bff6")
+	)
+	(pad "13" smd rect
+		(at 8.316 -5.91)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db82ff9f-ad80-4063-83e3-13bc22c59ab5")
+	)
+	(pad "14" smd rect
+		(at 8.316 -7.41)
+		(size 3 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66756872-c437-4b99-be4b-5e7fa2728330")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "70692498-58ce-43ee-88b7-9a6ffbaefb3d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -7.1 -7.9) (xy -7.1 8) (xy 6.8 8) (xy 6.8 -7.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../libraries/3dmodels/RF4463PRO-433.step"
+		(offset
+			(xyz -0.14 0.229 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

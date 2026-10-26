@@ -554,6 +554,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "APEX_Symbols:Crystal_GND24"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic four-pin quartz crystal, pins 1/3 = crystal, pins 2/4 = case ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "crystal quartz resonator XTAL ground case Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "XTAL_3225*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 2.54) (xy 1.905 2.54) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 -2.54) (xy 1.905 -2.54) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy -1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.524) (xy 0.635 1.524) (xy 0.635 -1.524) (xy -0.635 -1.524) (xy -0.635 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.016) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "APEX_Symbols:FB"
 			(pin_names
 				(offset 0.254)
@@ -6769,7 +7029,7 @@
 					)
 				)
 				(text "XTAL0"
-					(at 7.62 -27.94 0)
+					(at 7.62 -30.48 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7076,7 +7336,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -5.08 -27.94 0)
+					(at -5.08 -30.48 0)
 					(length 5.08)
 					(name "PTA19"
 						(effects
@@ -8366,6 +8626,12 @@
 		)
 	)
 	(junction
+		(at 62.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0055cf71-5487-49a0-a417-a98d86d6f358")
+	)
+	(junction
 		(at 105.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8498,6 +8764,12 @@
 		(uuid "96ea9f7c-fa64-4fa8-8de8-ae4053152816")
 	)
 	(junction
+		(at 74.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e0a17da-1b5f-4da8-be58-8f05c5275999")
+	)
+	(junction
 		(at 81.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8522,6 +8794,12 @@
 		(uuid "ce3c8084-72ae-429b-98da-7101fbefb851")
 	)
 	(junction
+		(at 74.93 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15056f2-3293-4392-9e2e-8a54b5c5c0d6")
+	)
+	(junction
 		(at 110.49 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8534,6 +8812,12 @@
 		(uuid "dde7359f-c08f-4495-9799-aea8b4ba698e")
 	)
 	(junction
+		(at 62.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a26d8c-a150-4dfc-ae6c-4c0e5235c5ec")
+	)
+	(junction
 		(at 281.94 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8544,6 +8828,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa5d5869-300e-4ae1-b3ca-a4945c261394")
+	)
+	(no_connect
+		(at 50.8 168.91)
+		(uuid "21bb5413-b1b5-4fff-a662-b5faa35bf9fd")
+	)
+	(no_connect
+		(at 50.8 171.45)
+		(uuid "3b245c0a-8b32-4dc2-9dde-aa9b1b511f52")
 	)
 	(wire
 		(pts
@@ -8654,6 +8946,16 @@
 			(type default)
 		)
 		(uuid "13b5b688-a3f5-4120-a985-938cd0d2eb4b")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d116d3-45f8-40cc-8152-f22092a476b0")
 	)
 	(wire
 		(pts
@@ -8824,6 +9126,16 @@
 			(type default)
 		)
 		(uuid "388d0d6b-203f-4fb4-aa93-ddc8cb3f9bae")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388e5b16-ba08-44e6-8411-f8342a974109")
 	)
 	(wire
 		(pts
@@ -9037,6 +9349,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 113.03) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5736897c-0f03-479a-a9c3-56abcdb85a74")
+	)
+	(wire
+		(pts
 			(xy 266.7 73.66) (xy 270.51 73.66)
 		)
 		(stroke
@@ -9187,6 +9509,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 102.87) (xy 81.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763f380c-3598-499f-af70-e12e77f05cc8")
+	)
+	(wire
+		(pts
 			(xy 45.72 176.53) (xy 44.45 176.53)
 		)
 		(stroke
@@ -9264,6 +9596,16 @@
 			(type default)
 		)
 		(uuid "97c46889-c38b-4f49-b2b3-dbbb487e9639")
+	)
+	(wire
+		(pts
+			(xy 74.93 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a83328-32b2-4413-8010-6e1f3ed6e3f7")
 	)
 	(wire
 		(pts
@@ -9557,6 +9899,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7475ad1-e3dc-4639-80a7-723aebb341c5")
+	)
+	(wire
+		(pts
+			(xy 69.85 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d4c11c-6625-4f1f-aee2-3f5bf57e87ef")
+	)
+	(wire
+		(pts
 			(xy 38.1 161.29) (xy 38.1 163.83)
 		)
 		(stroke
@@ -9604,6 +9966,26 @@
 			(type default)
 		)
 		(uuid "d1de3d63-d444-4669-ae78-60223f7003b6")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2876b5e-a740-4a86-bfdf-cfb1b876575e")
+	)
+	(wire
+		(pts
+			(xy 62.23 114.3) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48e0db7-5596-4508-856a-89b6f849632b")
 	)
 	(wire
 		(pts
@@ -9687,6 +10069,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc356ec2-8de1-4e13-ab9c-39b872afce99")
+	)
+	(wire
+		(pts
 			(xy 281.94 66.04) (xy 281.94 68.58)
 		)
 		(stroke
@@ -9744,6 +10136,16 @@
 			(type default)
 		)
 		(uuid "e2625870-faea-48a8-9acc-b7487c033dcd")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e399acee-10c1-48e9-aa3b-1664bdf4424d")
 	)
 	(wire
 		(pts
@@ -10336,6 +10738,96 @@
 			(project "apex-control-2026"
 				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 67.31 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "174da1db-658f-4169-ad2f-9798aed3f006")
+		(property "Reference" "C24"
+			(at 67.31 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15p"
+			(at 67.31 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 67.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b995d315-27d7-46c6-b246-330617e6dc81")
+		)
+		(pin "1"
+			(uuid "304ad01c-648f-477c-9339-abaee494dd97")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12819,6 +13311,97 @@
 	)
 	(symbol
 		(lib_id "APEX_Symbols:C")
+		(at 67.31 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5642fec5-56b5-49ff-bbba-056e31c7d6f6")
+		(property "Reference" "C23"
+			(at 67.31 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15p"
+			(at 67.31 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2dbfab1a-c578-45c6-9931-5ea2a6e39920")
+		)
+		(pin "1"
+			(uuid "1b3d16fd-5973-4af7-9fd0-35cce76c99df")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
 		(at 101.6 44.45 90)
 		(unit 1)
 		(body_style 1)
@@ -13089,7 +13672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 137.16 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13232,6 +13815,102 @@
 			(project "apex-control-2026"
 				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:Crystal_GND24")
+		(at 74.93 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73812338-a66d-4792-818d-ae4274ed2442")
+		(property "Reference" "Y3"
+			(at 53.34 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 53.34 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APEX_FOOTPRINTS:XTAL_3225"
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic four-pin quartz crystal, pins 1/3 = crystal, pins 2/4 = case ground"
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a17e896-6325-4f8a-a582-f28e9c82f1a8")
+		)
+		(pin "3"
+			(uuid "c2e6c043-f331-4a2a-941b-4d99249cfbd7")
+		)
+		(pin "4"
+			(uuid "950346f6-0c63-4b5c-8e26-8580a636a074")
+		)
+		(pin "1"
+			(uuid "1fb5bea0-e0df-4bf5-9229-8bedc06077f8")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -14474,6 +15153,83 @@
 		)
 	)
 	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 62.23 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ada1b6ba-7b3b-47a0-9aa3-d35613a6557a")
+		(property "Reference" "#PWR056"
+			(at 62.23 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 118.11 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 62.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e42846d9-41ee-42c8-a8ed-ccf89831ff98")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APEX_Symbols:R")
 		(at 44.45 161.29 0)
 		(unit 1)
@@ -14828,6 +15584,84 @@
 		)
 	)
 	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 80.01 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f6800b-9b82-458b-b328-4f5151e33659")
+		(property "Reference" "#PWR055"
+			(at 86.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 107.95 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb63deee-60de-42c8-9b05-071e4c89ac55")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/d570dfc9-7ad8-467c-b722-7c9e137dcc6d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APEX_Symbols:FB")
 		(at 39.37 147.32 90)
 		(unit 1)
@@ -15114,7 +15948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 137.16 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)

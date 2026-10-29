@@ -635,14 +635,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Nearby Pin",
+          "name": "Nearby Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -685,7 +709,7 @@
         "uuid": "e82f86d1-bc15-466a-bf95-b7a389511473"
       }
     ],
-    "used_designators": "#PWR2-15,#PWR40-57,L1-2,C1-11,C22-24,R1,R22-24,J1-4,Y1,Y3,U1-12,FB1",
+    "used_designators": "#PWR2-15,#PWR40-65,L1-2,C1-11,C22-68,R1,R22-24,J1-4,Y1,Y3,U1-12,FB1",
     "variants": []
   },
   "sheets": [

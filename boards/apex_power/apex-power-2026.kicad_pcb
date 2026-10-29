@@ -157,5 +157,441 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "APEX_FOOTPRINTS:MH_M3-Pad"
+		(layer "F.Cu")
+		(uuid "68fe65bb-bf27-498e-bf4c-9071a9f47bae")
+		(at 117.5 82.5)
+		(property "Reference" "H2"
+			(at -4 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bcbf6a1c-2876-4e55-9f31-aa949d58ba11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "M3 MH w/Pad"
+			(at 10 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36c162e9-a3e5-478b-828c-31f382ce233c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6d02bda-a147-42d9-beef-b00550526dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5689531b-b950-49e9-a49b-23de0f0f7b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/77e179f9-534c-43de-9035-bcee976c54aa")
+		(sheetname "/")
+		(sheetfile "apex-power-2026.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "98628f6a-3a77-43a0-80cb-c69841b6d6a0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3af3b2c1-9407-4176-a934-66099d95e6ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pad_1")
+			(pintype "power_in")
+			(uuid "5a88497c-b1fd-45ac-82f0-2bd72e7cef0e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "APEX_FOOTPRINTS:MH_M3-Pad"
+		(layer "F.Cu")
+		(uuid "cc5ff7ff-6ca7-46b0-b08c-183c04539bf7")
+		(at 117.5 117.5)
+		(property "Reference" "H4"
+			(at -4 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "16a2d1c3-be11-4599-866f-10192f8e12b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "M3 MH w/Pad"
+			(at 10 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3ddb581-db4a-48f9-ad7a-45a506d4c755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d80e62e0-7e34-4264-8a14-7967a9c66f98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "280fe34c-09ac-4e80-840a-e9c83d3eeccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac4bb443-2c8e-4844-8a5d-23ea366798de")
+		(sheetname "/")
+		(sheetfile "apex-power-2026.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "093b4723-3aed-4dec-90ea-10afbd5fea38")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0349143f-1ae4-48a1-bbfc-023e14f5bd29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pad_1")
+			(pintype "power_in")
+			(uuid "1d251178-0821-41e0-af01-55284764a517")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "APEX_FOOTPRINTS:MH_M3-Pad"
+		(layer "F.Cu")
+		(uuid "dbdecdcd-a4d5-4ffc-a156-786aa3d30987")
+		(at 82.5 82.5)
+		(property "Reference" "H1"
+			(at 4 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "919ae74f-7457-4c22-8e75-4c58341f7d7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "M3 MH w/Pad"
+			(at 10 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2618b789-4ac2-4c07-ad46-4c7566afb917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66e5a073-2d6c-4b60-b32d-7aaf7ad7addc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2863fec4-1dc5-4345-b152-cba5cef01a26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7cd60c1d-31a3-4ebe-8475-26cc85804908")
+		(sheetname "/")
+		(sheetfile "apex-power-2026.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7e6d04ed-747c-4d60-b708-dac1e868e878")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5e92715e-84a0-4d7c-9016-6aa9d18d3590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pad_1")
+			(pintype "power_in")
+			(uuid "df7c6161-1d4d-4849-a8cb-67ed1a493ee3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "APEX_FOOTPRINTS:MH_M3-Pad"
+		(layer "F.Cu")
+		(uuid "fa2bf685-3150-4d51-9fd8-6f4fd756e21c")
+		(at 82.5 117.5)
+		(property "Reference" "H3"
+			(at 4 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef1b8ad1-bfb9-46fe-a741-36f1c3f2aa40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "M3 MH w/Pad"
+			(at 10 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "313c8797-f37a-4d0a-8e3f-9fc46676e124")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7116dbe4-4fbc-49b3-843b-b27d0a6a6149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c7d2826-9443-4cdf-aa71-0bee704330c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/fd35c2fe-c684-4b94-9851-dbfbd5ec8c07")
+		(sheetname "/")
+		(sheetfile "apex-power-2026.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1c585af3-59a1-4b27-956d-4bbf8b10160f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bdd091a-1077-46a7-b852-54d9fca2d300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pad_1")
+			(pintype "power_in")
+			(uuid "32e15263-6a25-4582-a64b-802743f7ac68")
+		)
+		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 78.5 78.5)
+		(end 121.5 121.5)
+		(radius 4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e592936b-aca5-46b5-9930-ff704e10cd6e")
+	)
+	(gr_rect
+		(start 77.5 77.5)
+		(end 122.5 122.5)
+		(radius 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "57635080-b803-47e6-8402-b145a36fbae4")
+	)
 	(embedded_fonts no)
 )

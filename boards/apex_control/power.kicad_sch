@@ -5369,7 +5369,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -73.66 0)
+					(at -5.08 -76.2 0)
 					(length 5.08)
 					(name "GPIO_AD_03"
 						(effects
@@ -5531,7 +5531,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -76.2 0)
+					(at -5.08 -73.66 0)
 					(length 5.08)
 					(name "GPIO_AD_09"
 						(effects
@@ -9601,16 +9601,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a1e459-66a2-41ef-82c1-ab9b137963c5")
-	)
-	(wire
-		(pts
 			(xy 50.8 49.53) (xy 50.8 52.07)
 		)
 		(stroke
@@ -10401,6 +10391,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9640de91-96c7-4bc2-b8b6-6ab7775ead16")
+	)
+	(wire
+		(pts
 			(xy 278.13 101.6) (xy 278.13 99.06)
 		)
 		(stroke
@@ -10501,7 +10501,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 140.97) (xy 209.55 140.97)
+			(xy 208.28 140.97) (xy 218.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10558,6 +10558,16 @@
 			(type default)
 		)
 		(uuid "a1da78f1-d3ea-4cc4-9f1e-a9d22ae12f33")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1df39d7-73a0-4ccb-9fc8-c97195775e73")
 	)
 	(wire
 		(pts
@@ -11349,87 +11359,35 @@
 		)
 		(uuid "fb5f9924-d9fa-4c80-adf1-ed0f6ef1ae2b")
 	)
-	(wire
-		(pts
-			(xy 242.57 140.97) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff873672-f170-4ec0-916d-6b3603f968ea")
-	)
-	(global_label "RC_Delay"
-		(shape input)
-		(at 209.55 140.97 0)
-		(fields_autoplaced yes)
+	(label "RC_Delay"
+		(at 115.57 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "5b9a39c8-8779-4e8f-9bc1-7fcb94ebf38b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1832 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "a67e518c-506f-4193-b2f7-776a4acd4f47")
 	)
-	(global_label "RC_Delay"
-		(shape input)
-		(at 242.57 140.97 180)
-		(fields_autoplaced yes)
+	(label "RC_Delay"
+		(at 232.41 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "72ad9792-7539-4bd3-b3e8-2f6693a78c2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9368 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "a703a0cc-e100-4799-bd37-0925cee8816d")
 	)
-	(global_label "RC_Delay"
-		(shape input)
-		(at 125.73 93.98 180)
-		(fields_autoplaced yes)
+	(label "RC_Delay"
+		(at 218.44 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "923f94bd-4b24-48a0-8429-d70cd0a7810a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0968 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "d1e8fc20-5fc3-40c2-8f37-6cb4980e5c54")
 	)
 	(symbol
 		(lib_id "APEX_Symbols:GND")
@@ -15336,7 +15294,7 @@
 		(dnp no)
 		(uuid "67932ef4-f158-44f9-9d14-e6425b2fafd7")
 		(property "Reference" "U6"
-			(at 179.07 151.892 0)
+			(at 131.826 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15347,7 +15305,7 @@
 			)
 		)
 		(property "Value" "MIMXRT1171DVMAB"
-			(at 171.45 149.606 0)
+			(at 131.318 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16271,6 +16229,10 @@
 		(instances
 			(project "apex-control-2026"
 				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/13918ba5-4081-4683-bd12-f7e6e14bb50f"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/281bf040-1912-415d-a23a-147f01a8653f"
 					(reference "U6")
 					(unit 1)
 				)

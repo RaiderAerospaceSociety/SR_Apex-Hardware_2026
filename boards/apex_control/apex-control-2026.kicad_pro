@@ -547,6 +547,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 194)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Interrupt",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(221, 133, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 194, 194)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -554,7 +582,92 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/BMP_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/BMP_SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/ACC2_SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/ACC2_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/MAG_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/MAG_SDA"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/ACC2_INT2"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/ACC2_INT1"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/MAG_INT"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/ACC1_INT1"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/ACC1_INT2"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/Sensors/BMP_INT"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ACC1_SCLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ACC1_MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ACC1_MISO"
+      },
+      {
+        "netclass": "CS",
+        "pattern": "/Sensors/ACC1_CS"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/S(CL|DA)"
+      },
+      {
+        "netclass": "Interrupt",
+        "pattern": "/ACC1_INT1|/ACC1_INT2|/ACC2_INT1|/ACC2_INT2|/BMP_INT|/MAG_INT"
+      },
+      {
+        "netclass": "CS",
+        "pattern": "/ACC1_CS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ACC1_(MISO|MOSI|SCLK)"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/S(CL|DA)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -709,7 +822,7 @@
         "uuid": "e82f86d1-bc15-466a-bf95-b7a389511473"
       }
     ],
-    "used_designators": "#PWR2-15,#PWR40-65,L1-2,C1-11,C22-68,R1,R22-24,J1-4,Y1,Y3,U1-12,FB1",
+    "used_designators": "#PWR2-15,#PWR40-106,L1-2,C1-11,C22-71,R1,R22-24,J1-4,Y1,Y3,U1-12,FB1",
     "variants": []
   },
   "sheets": [

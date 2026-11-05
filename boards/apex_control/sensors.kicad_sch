@@ -5,6 +5,393 @@
 	(uuid "85314fc4-e6cb-4c65-b4e9-b21e96e28892")
 	(paper "A4")
 	(lib_symbols
+		(symbol "APEX_Symbols:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power rail"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "APEX_Symbols:+3V3_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3_1"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power rail"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+3V3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "APEX_Symbols:+V_BUCK"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+V_BUCK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+V_BUCK\": RTOS 5V Buck Rail"
+				(at -0.254 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power rail"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+V_BUCK_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+V_BUCK_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -1.27) (xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 0 -3.81 0)
+					(length 0)
+					(hide yes)
+					(name "+1V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "APEX_Symbols:ADXL375"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -639,6 +1026,509 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "APEX_Symbols:C"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor passive cap C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.016) (xy -0.635 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.016) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "APEX_Symbols:C_Polarized"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic polarized capacitor (pin 1 = positive)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor polarized electrolytic tantalum polymer CP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_* CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -0.889) (xy -1.143 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy -1.524 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.016) (xy -0.635 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.016) (xy 1.016 1.016) (xy 1.016 -1.016) (xy 0.635 -1.016) (xy 0.635 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.175)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "APEX_Symbols:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2405,9 +3295,1689 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ACC2 Decoupling"
+		(exclude_from_sim no)
+		(at 128.524 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70db6faf-a088-4616-8d04-98119ef3d6bd")
+	)
+	(text "BMP Decoupling"
+		(exclude_from_sim no)
+		(at 50.8 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86bf00ee-9f66-4cb4-bd8a-799894a29114")
+	)
+	(text "ACC1 Decoupling"
+		(exclude_from_sim no)
+		(at 76.2 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cacaeaf6-25ba-4a4a-8de7-b2945c8f8b88")
+	)
+	(text "MAG Decoupling\n"
+		(exclude_from_sim no)
+		(at 100.33 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd0d52c3-a522-4759-b5d9-995a66af855c")
+	)
+	(junction
+		(at 80.01 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06152e7e-6f4b-43c5-8e31-7739ba0d4274")
+	)
+	(junction
+		(at 50.8 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2288c412-5a2b-46e1-b00a-ff0da49057c5")
+	)
+	(junction
+		(at 44.45 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53dc3179-f98c-4a74-990e-fec7dd4d7951")
+	)
+	(junction
+		(at 50.8 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f189fd-edd7-4d64-af66-8605b4b090ab")
+	)
+	(junction
+		(at 76.2 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605c9072-5bcb-4826-8db2-99310d2f3284")
+	)
+	(junction
+		(at 128.27 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65536e97-e334-4a1a-a718-761f846fd07f")
+	)
+	(junction
+		(at 80.01 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "676d22bf-f934-443b-81cb-3b83830927fc")
+	)
+	(junction
+		(at 128.27 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b65d1c0-4275-457b-842d-ddb756070dd8")
+	)
+	(junction
+		(at 128.27 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc51e84-3022-437a-8186-317c7fa94aae")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ba8511-7696-46b9-9914-1e221b1b49d0")
+	)
+	(junction
+		(at 43.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853d6b60-4d46-4316-a6b7-7673745892af")
+	)
+	(junction
+		(at 43.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98dc8c11-8cd3-4f1f-8e0b-3abc80f9aff2")
+	)
+	(junction
+		(at 128.27 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce3f4f6-a1ef-410a-9adb-d22611495dcd")
+	)
+	(junction
+		(at 128.27 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9efb54d-4ce9-4d08-a475-1fd72f38c41a")
+	)
+	(junction
+		(at 100.33 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1839cc6-8b9d-46a1-9272-65ed55ae9450")
+	)
+	(junction
+		(at 100.33 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1a08486-22a0-4664-a682-9ef90e4a292a")
+	)
+	(junction
+		(at 43.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da89420f-bcc6-4f0b-81ef-b1bdaf888da5")
+	)
+	(junction
+		(at 76.2 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c22097-c6f5-47ff-a246-3e7e6ead74ee")
+	)
+	(no_connect
+		(at 162.56 106.68)
+		(uuid "0fac615f-5e63-4338-a50f-7889298e210e")
+	)
+	(no_connect
+		(at 132.08 68.58)
+		(uuid "1a294bb7-d346-4c3a-9fe6-7d976daf39e6")
+	)
+	(no_connect
+		(at 162.56 118.11)
+		(uuid "1c2d0778-c115-4100-a342-ab184dc5cd45")
+	)
+	(no_connect
+		(at 162.56 121.92)
+		(uuid "4bf13b59-b8d4-4069-872c-f56981ee7c6c")
+	)
+	(no_connect
+		(at 162.56 110.49)
+		(uuid "9a9b0829-df2a-43b1-a3b4-e770200fb366")
+	)
+	(no_connect
+		(at 162.56 114.3)
+		(uuid "b83ff46a-3c86-4f61-a288-986f403c8506")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003cde9c-407d-4bbf-9866-c135d2d03644")
+	)
+	(wire
+		(pts
+			(xy 44.45 111.76) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c48940-7c80-45d9-be5d-55086eb88fa8")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7eaece-5974-413b-aa38-03e488278b54")
+	)
+	(wire
+		(pts
+			(xy 45.72 173.99) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c106a6f-1ed5-42cc-9951-96b1b001c44d")
+	)
+	(wire
+		(pts
+			(xy 105.41 162.56) (xy 105.41 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5c634a-c129-4c5c-82fb-ec7fdf3dc12c")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128b572c-fac7-42fc-9ac0-530c872f0fcf")
+	)
+	(wire
+		(pts
+			(xy 128.27 173.99) (xy 128.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d75afb-dba8-4f2e-bfaf-b8cc23ae9ae3")
+	)
+	(wire
+		(pts
+			(xy 132.08 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1417a8a8-6c00-4af3-b527-bec65f06f8c8")
+	)
+	(wire
+		(pts
+			(xy 78.74 72.39) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c32ffb2-2b81-46af-b148-2907b93cc4a7")
+	)
+	(wire
+		(pts
+			(xy 55.88 162.56) (xy 55.88 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf0b2fa-db7b-4d54-85f1-d8467f91bcc2")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 132.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e99b0b0-e7e7-428a-b22c-37d3f1cea5fa")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebe68f6-a200-420a-ace1-4af628c9fa5c")
+	)
+	(wire
+		(pts
+			(xy 128.27 177.8) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fecab17-8cdc-4af7-beea-68bccde5c79f")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325de627-98ea-464f-b97f-f3a22d84ffc2")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380a757a-4bfc-4be8-9ef4-633af84cadc4")
+	)
+	(wire
+		(pts
+			(xy 50.8 177.8) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d825fe-f0f4-4ab8-bd9b-26370199386f")
+	)
+	(wire
+		(pts
+			(xy 77.47 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39790d77-8ce2-4068-9481-a22213b819ee")
+	)
+	(wire
+		(pts
+			(xy 128.27 162.56) (xy 128.27 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fd13fb-4a59-4fc9-9cba-6031e4d06c66")
+	)
+	(wire
+		(pts
+			(xy 119.38 162.56) (xy 119.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9283e3-194d-4ccb-96da-cb63d8993356")
+	)
+	(wire
+		(pts
+			(xy 119.38 173.99) (xy 119.38 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469d46c6-45e7-4408-adec-fad5ee65bc8f")
+	)
+	(wire
+		(pts
+			(xy 45.72 162.56) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4709d87e-95a5-4bd7-a6b1-cafb44cc503c")
+	)
+	(wire
+		(pts
+			(xy 76.2 177.8) (xy 76.2 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1ee204-0a8c-4aff-beb2-067d61f323dc")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca2cccb-16d3-421d-99dc-2159defe5b13")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e00c012-7cb2-49a9-ae69-42be0941e009")
+	)
+	(wire
+		(pts
+			(xy 137.16 162.56) (xy 137.16 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f01a016-b39a-49e9-ba5b-70af20d4c6ed")
+	)
+	(wire
+		(pts
+			(xy 100.33 177.8) (xy 105.41 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c4ef5b-d5b6-45da-8e2c-686fa81f7c8f")
+	)
+	(wire
+		(pts
+			(xy 100.33 177.8) (xy 100.33 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567149bf-9ddb-4ef0-8875-462bbb5b8869")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569f820a-9af3-4a41-a446-72c95768ed27")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 43.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5e6088-d23e-4ba3-9340-79bc4be65eac")
+	)
+	(wire
+		(pts
+			(xy 95.25 162.56) (xy 105.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed63949-77ef-4926-bef0-72831f7628e1")
+	)
+	(wire
+		(pts
+			(xy 71.12 177.8) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f007b43-be2f-486e-94f4-06688f9cdb86")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60611292-e013-40ec-b21c-793131a6faed")
+	)
+	(wire
+		(pts
+			(xy 43.18 64.77) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e72ca3-e35b-4f56-8bae-05ab305fa476")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6840586e-06ed-4349-aa62-f26cb2188f65")
+	)
+	(wire
+		(pts
+			(xy 100.33 161.29) (xy 100.33 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b030626-2fb1-4fe5-ac19-9acab50e466e")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6cf2a0-b555-4043-b581-fdfaeecc21d7")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 43.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70546cc9-74d6-43bf-aadb-c312a5ebb570")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bc780d-3421-49b0-8bae-b888ae306147")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7928c93f-5318-4097-8043-624b7777d7fc")
+	)
+	(wire
+		(pts
+			(xy 76.2 177.8) (xy 81.28 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bebe7d2-5893-418f-a975-d75e19487420")
+	)
+	(wire
+		(pts
+			(xy 128.27 161.29) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd48475-9ede-4ac6-98f9-26aca255b412")
+	)
+	(wire
+		(pts
+			(xy 128.27 44.45) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fbbdc8-7f91-434e-a5b8-db719fe6b73c")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 44.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8313f6cf-07e4-46b8-bf16-15ce093aefde")
+	)
+	(wire
+		(pts
+			(xy 128.27 162.56) (xy 137.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837fd94e-fe2c-442d-afd6-201ac0343e59")
+	)
+	(wire
+		(pts
+			(xy 95.25 162.56) (xy 95.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8610fec6-b9b1-4f0a-8840-283e023f5777")
+	)
+	(wire
+		(pts
+			(xy 77.47 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ef1088-d0af-42a4-9fd0-1551968b6f7c")
+	)
+	(wire
+		(pts
+			(xy 119.38 162.56) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b416822-28fc-4413-a789-f9579befd0e7")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94416b42-8300-4d5f-a6eb-b6424c96a28f")
+	)
+	(wire
+		(pts
+			(xy 80.01 115.57) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dd81d6-5c4d-4249-bf80-2775f9c2f01c")
+	)
+	(wire
+		(pts
+			(xy 80.01 123.19) (xy 80.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3438cc-52a0-407e-b957-bb7f3ba8cc7b")
+	)
+	(wire
+		(pts
+			(xy 95.25 177.8) (xy 100.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef401ab-2548-4035-b62f-48d2c17c9e83")
+	)
+	(wire
+		(pts
+			(xy 76.2 161.29) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f51075-9d6e-4935-8a15-2efe457549fa")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5505f53-d11e-4b15-bc76-9273454e56ca")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 43.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa810e91-21c5-4530-bdd8-c115d5019d01")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 43.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac7b622-f090-428d-8cc3-cac8424f73bf")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 81.28 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5639e3-8a4f-4a65-90c6-921232d64041")
+	)
+	(wire
+		(pts
+			(xy 43.18 44.45) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ea7c62-c161-411c-ba39-74fe70f2559a")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 78.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b173b8ef-5c21-47da-be75-eff6807c81a2")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 71.12 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b316bec8-9c8b-4ebc-ac85-ae8bc1a93663")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b362e1c4-195f-49f7-9887-3d9da446b509")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49dfb50-5af2-46fd-aa17-71acf9897811")
+	)
+	(wire
+		(pts
+			(xy 128.27 177.8) (xy 128.27 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7e53f5-7fde-4189-b5de-4f71b1037a8c")
+	)
+	(wire
+		(pts
+			(xy 55.88 177.8) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3488e96-6d44-4cd8-b15b-a8003453c560")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc05435-c314-48b6-8781-2e00a832d548")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfe6dba-52d0-4a7c-aaf7-6612152278af")
+	)
+	(wire
+		(pts
+			(xy 50.8 161.29) (xy 50.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26bfd4e-420d-4026-a765-bdffd9fd5c51")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d334b08d-141d-42da-9cd1-5383202e95c2")
+	)
+	(wire
+		(pts
+			(xy 46.99 107.95) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a0f63c-ee97-4a14-8e96-0aaa286f178d")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d846117a-7861-4019-919c-cca27eaedce6")
+	)
+	(wire
+		(pts
+			(xy 105.41 177.8) (xy 105.41 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84aae78-15be-4c74-b04b-8b2008a65dd4")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a1695d-1d44-44db-b1bc-fef641bcedb3")
+	)
+	(wire
+		(pts
+			(xy 46.99 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0c0724-bac3-45a5-8b59-aed24ba88d22")
+	)
+	(wire
+		(pts
+			(xy 45.72 64.77) (xy 43.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c09636-1358-459a-8aa1-63e1b6e0a613")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f23882-9ff2-4c9d-b535-41c1cef44992")
+	)
+	(wire
+		(pts
+			(xy 81.28 177.8) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c9e71a-bc31-4cb1-b4f6-b985ea9d59c3")
+	)
+	(bus
+		(pts
+			(xy 2.6924 2.6924) (xy 16.6624 2.6924)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6001930-1e02-4088-8ce2-f0aac4892b34")
+	)
+	(wire
+		(pts
+			(xy 46.99 123.19) (xy 44.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b86865-cdcc-4485-97b2-a3bcf8f29e9c")
+	)
+	(wire
+		(pts
+			(xy 71.12 173.99) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08e0903-74fb-4302-ab8e-d1c3a443f78e")
+	)
+	(wire
+		(pts
+			(xy 77.47 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11fd95e-7234-4dea-b6d5-088e933756bb")
+	)
+	(wire
+		(pts
+			(xy 45.72 177.8) (xy 55.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14fe9b5-b5ba-4189-a856-5e27b273c4c9")
+	)
+	(wire
+		(pts
+			(xy 45.72 162.56) (xy 45.72 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4307ff8-0d62-48f6-9b09-dfcb1ef424b6")
+	)
+	(wire
+		(pts
+			(xy 119.38 177.8) (xy 128.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57636cc-d27f-4341-bd65-a8614a6b25ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f1ad06-c5f3-4404-99b8-ad218dad8477")
+	)
+	(wire
+		(pts
+			(xy 137.16 173.99) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd34eed1-13cd-4d0e-bcea-e7c4f9bae96a")
+	)
+	(wire
+		(pts
+			(xy 95.25 173.99) (xy 95.25 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda280d9-7aa4-4a9c-be51-a2243d599965")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf4092a-5e35-4d94-a5ad-5257ac643511")
+	)
+	(hierarchical_label "ACC1_INT2"
+		(shape input)
+		(at 162.56 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03ace39f-fdd3-42d5-8510-9a50723d06d4")
+	)
+	(hierarchical_label "MAG_INT"
+		(shape input)
+		(at 162.56 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1670ea24-9b6d-49da-9be8-45590a5e0f30")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 45.72 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "191f357a-1c6e-45a2-abc1-5357dc03fac1")
+	)
+	(hierarchical_label "ACC2_INT2"
+		(shape input)
+		(at 76.2 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2947ecef-11f2-4bb3-8f36-27ff969ff67e")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 46.99 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a655f9c-948b-4f71-9383-2402747d639c")
+	)
+	(hierarchical_label "ACC2_INT1"
+		(shape input)
+		(at 76.2 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30381ddf-0095-4c87-8cfc-0b005c365294")
+	)
+	(hierarchical_label "ACC1_INT1"
+		(shape input)
+		(at 162.56 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31f25a96-47a7-43ad-b00a-2bad04d62694")
+	)
+	(hierarchical_label "ACC1_MISO"
+		(shape input)
+		(at 132.08 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34420192-7b3a-41c9-b6a8-25a15b2e4d29")
+	)
+	(hierarchical_label "ACC1_MOSI"
+		(shape input)
+		(at 12.1202 8.4296 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36f14d8e-1470-44f3-bd61-5a8b06d1bb2f")
+	)
+	(hierarchical_label "BMP_INT"
+		(shape input)
+		(at 77.47 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53acdc41-fd95-484f-802e-42aefaea3445")
+	)
+	(hierarchical_label "ACC1_CS"
+		(shape input)
+		(at 12.1202 0.8096 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5913eb24-2f90-4ba9-a67f-c591b4c62180")
+	)
+	(hierarchical_label "ACC1_MISO"
+		(shape input)
+		(at 12.1202 4.6196 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c39285c-5899-4644-8f52-75c63bd7fa0e")
+	)
+	(hierarchical_label "ACC1_CS"
+		(shape input)
+		(at 132.08 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f7dfe3e-56cf-45ce-be43-39cca47755f0")
+	)
+	(hierarchical_label "ACC1_SCLK"
+		(shape input)
+		(at 12.1202 12.2396 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "715b3f56-f436-435a-825a-e3a5883a649f")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 132.08 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "926ac4a2-8edf-43b3-9602-70f44722eaf4")
+	)
+	(hierarchical_label "ACC1_MOSI"
+		(shape input)
+		(at 132.08 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "997a1116-49ce-4637-9b48-7620f1e14335")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 132.08 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aefd9ec4-2f6d-40d6-8904-f49325052cdb")
+	)
+	(hierarchical_label "ACC1_SCLK"
+		(shape input)
+		(at 132.08 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cee25ce0-5c42-40c9-a203-9ffef910a32d")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 45.72 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e14a569a-856e-4a6a-ada3-2a4ae4e61f25")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 46.99 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9105683-d47e-4cbe-af84-8a09612ac9b4")
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 128.27 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09caee04-2a12-4487-a713-09b2421295a2")
+		(property "Reference" "#PWR099"
+			(at 128.27 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 128.27 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 128.27 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adcb4dbc-ef1c-408e-902c-b86094d11b23")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 173.99 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a2ff3c9-2ef9-48ea-b9e9-71c3e9bde968")
+		(property "Reference" "C39"
+			(at 171.704 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 171.704 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebf3fd5c-d36a-4049-afed-0e3d80a31e53")
+		)
+		(pin "2"
+			(uuid "3c78b734-1988-407c-a52f-47c9b8f65573")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 50.8 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1720661c-9e1f-42e7-a146-542df48de8b3")
+		(property "Reference" "#PWR080"
+			(at 50.8 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74728b17-df74-48ce-aabf-803bf23c6fd8")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 105.41 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "180080d3-2ab5-4bbc-b6ae-0d8e453b5a97")
+		(property "Reference" "C41"
+			(at 103.124 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 103.124 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby PIn" "VDD"
+			(at 101.092 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97bf55b7-219c-4f99-b4f1-4d327cbe27da")
+		)
+		(pin "2"
+			(uuid "a8c4b42a-abbd-4ec6-b97e-a53c1e91cf4c")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 43.18 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "299a45ca-bc13-4de4-b0fb-d7d0c8efb7d9")
+		(property "Reference" "#PWR098"
+			(at 43.18 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 43.18 40.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 43.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "869673ea-8cc3-4b23-917f-fbb9b880a27a")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "APEX_Symbols:ADXL375")
-		(at 110.49 63.5 0)
+		(at 60.96 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2418,7 +4988,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a571d86-cf19-430f-b3a4-58f1eca9fe03")
 		(property "Reference" "U1"
-			(at 110.49 49.53 0)
+			(at 60.96 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2428,7 +4998,7 @@
 			)
 		)
 		(property "Value" "ADXL375"
-			(at 110.49 52.07 0)
+			(at 60.96 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2438,7 +5008,7 @@
 			)
 		)
 		(property "Footprint" "APEX_FOOTPRINTS:ADXL375_LGA_CC-14-1_ADI"
-			(at 110.49 126.238 0)
+			(at 60.96 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adxl375.pdf"
-			(at 110.49 102.108 0)
+			(at 60.96 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +5030,7 @@
 			)
 		)
 		(property "Description" "3-axis ±200 g digital accelerometer, I²C/SPI, 14-terminal LGA (CC-14-1)"
-			(at 110.49 128.778 0)
+			(at 60.96 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +5041,7 @@
 			)
 		)
 		(property "LCSC" "C481898"
-			(at 110.236 104.394 0)
+			(at 60.706 96.774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,8 +5103,422 @@
 		)
 	)
 	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 80.01 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce92db2-90a9-453c-815c-3b2f015a8dc1")
+		(property "Reference" "#PWR078"
+			(at 80.01 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 80.01 100.33 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 80.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6b38d73-4809-405d-8e74-ee3b88a4a050")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 76.2 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e26bcbe-a9d1-4a39-b400-882956c97ebf")
+		(property "Reference" "#PWR092"
+			(at 76.2 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 76.2 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 76.2 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb9f29d9-705f-4d57-9dfb-dd0066fa4243")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 173.99 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b463d8-1ad7-4371-bf34-a1f570281181")
+		(property "Reference" "#PWR086"
+			(at 173.99 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 85.09 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 173.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0ccf622-bfd9-4bb3-9f41-0d1efade6cae")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 45.72 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "369d53c2-c5f5-47b2-a134-0507ff5c43f4")
+		(property "Reference" "C36"
+			(at 43.434 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 43.434 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby Pin" "VDDI/O"
+			(at 41.402 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f5535e7-a4e8-433f-ace8-775ca66e9ce8")
+		)
+		(pin "2"
+			(uuid "cab2b805-661b-48c5-861d-b2f7766345e2")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 128.27 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5bdb29-3910-4559-9d9c-3d3efdb3b21a")
+		(property "Reference" "#PWR087"
+			(at 128.27 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 128.27 99.06 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27c8bf5e-d5d7-47be-94eb-17d45340c4c6")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APEX_Symbols:MMC5983MA")
-		(at 171.45 69.85 0)
+		(at 147.32 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2545,7 +5529,7 @@
 		(fields_autoplaced yes)
 		(uuid "4955aaad-3bf2-49f2-abac-f9bb7218c1b9")
 		(property "Reference" "U2"
-			(at 171.45 49.53 0)
+			(at 147.32 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2555,7 +5539,7 @@
 			)
 		)
 		(property "Value" "MMC5983MA"
-			(at 171.45 52.07 0)
+			(at 147.32 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2565,7 +5549,7 @@
 			)
 		)
 		(property "Footprint" "APEX_FOOTPRINTS:MMC5983MA_MEM"
-			(at 171.45 91.44 0)
+			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,7 +5561,7 @@
 			)
 		)
 		(property "Datasheet" "MMC5983MA"
-			(at 171.45 88.9 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2589,7 +5573,7 @@
 			)
 		)
 		(property "Description" "±8 Gauss, High Performance 3-axis Magnetic Sensor"
-			(at 171.45 93.98 0)
+			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +5584,7 @@
 			)
 		)
 		(property "LCSC" "C404329"
-			(at 171.45 96.52 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,6 +5646,671 @@
 			(project "apex-control-2026"
 				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 71.12 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "535ad8f7-faab-4faf-8cf2-c68bbc2b9540")
+		(property "Reference" "C37"
+			(at 68.834 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 68.834 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 71.12 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 71.12 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby Pin" "VDDI/O"
+			(at 66.802 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92564ec4-05e8-481f-9e9e-430c21d753ed")
+		)
+		(pin "2"
+			(uuid "68bc906d-e283-4b95-91b3-7d9f640862ec")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 78.74 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d7e2d7-c1fb-413c-a427-45fad07429e1")
+		(property "Reference" "#PWR088"
+			(at 78.74 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 82.55 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 78.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8bed05c-5d35-4988-bde2-0859409ff1a1")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 119.38 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ed739cf-5a19-40d7-9c39-5f3f3f50237e")
+		(property "Reference" "C69"
+			(at 117.094 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 117.094 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby Pin" "VDDI/O"
+			(at 115.062 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69d2e4d3-c171-47bb-b2c7-e9558970d86d")
+		)
+		(pin "2"
+			(uuid "ae00f152-d39e-4b79-91f4-5e4e3d85578e")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 95.25 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6900f2de-58dc-4087-bdda-cc336689edf6")
+		(property "Reference" "C40"
+			(at 92.964 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 92.964 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby Pin" "VDDI/O"
+			(at 90.932 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38cd7dac-abb5-4627-8377-cea6e564e210")
+		)
+		(pin "2"
+			(uuid "ff6ff562-dce1-4a38-9934-b0cf37197c87")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 81.28 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74029386-7a0f-4bbb-8c28-d25189631732")
+		(property "Reference" "C38"
+			(at 78.994 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 78.994 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 81.28 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.28 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby PIn" "VDD"
+			(at 76.962 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e903ea5d-1127-46bd-a3ee-ea71ac58c739")
+		)
+		(pin "2"
+			(uuid "f973d1d0-85c7-4fd5-a532-e1edc1ff784e")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+V_BUCK")
+		(at 232.41 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77ef51e7-2f2c-4b39-bf7a-55196a92e745")
+		(property "Reference" "#PWR066"
+			(at 232.41 56.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_BUCK"
+			(at 230.886 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+V_BUCK\": RTOS 5V Buck Rail"
+			(at 232.156 58.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e1b59c1-3798-41d3-af2e-6cc62d11d6d4")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C_Polarized")
+		(at 128.27 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80ab6b8e-821c-4515-a37c-51918fea7253")
+		(property "Reference" "C71"
+			(at 125.222 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 125.984 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic polarized capacitor (pin 1 = positive)"
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby Pin" "VS"
+			(at 124.46 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a0661e4f-23ac-40bf-bded-31b50cd93b47")
+		)
+		(pin "1"
+			(uuid "804b369e-f4ad-4476-8249-e0e90e1f17e4")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -2900,7 +6549,7 @@
 	)
 	(symbol
 		(lib_id "APEX_Symbols:ICM-45686")
-		(at 172.72 120.65 0)
+		(at 147.32 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2911,7 +6560,7 @@
 		(fields_autoplaced yes)
 		(uuid "98892b7e-8ad8-4e7b-9ef1-28398ab2ff3b")
 		(property "Reference" "U3"
-			(at 172.72 101.6 0)
+			(at 147.32 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2921,7 +6570,7 @@
 			)
 		)
 		(property "Value" "ICM-45686"
-			(at 172.72 104.14 0)
+			(at 147.32 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "APEX_FOOTPRINTS:ICM-45686_LGA14L_TDK"
-			(at 170.18 137.16 0)
+			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +6592,7 @@
 			)
 		)
 		(property "Datasheet" "ICM-45686"
-			(at 172.72 139.7 0)
+			(at 147.32 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +6604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 120.65 0)
+			(at 147.32 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,7 +6615,7 @@
 			)
 		)
 		(property "LCSC" "C22459454"
-			(at 172.72 142.24 0)
+			(at 147.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,8 +6677,398 @@
 		)
 	)
 	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 76.2 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c35a91c-eb09-4f05-9423-183e41842a10")
+		(property "Reference" "#PWR084"
+			(at 76.2 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 76.2 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4dd09ac-bd78-4c44-8a69-ee7d073e6b1c")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 100.33 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a547bd47-423f-424d-9486-d10b94b941e6")
+		(property "Reference" "#PWR095"
+			(at 100.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 100.33 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 100.33 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a4ff228-ac2f-41d7-944a-9d17d7f35e8a")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 128.27 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6bcb22f-5377-42db-9e86-f53134edda93")
+		(property "Reference" "#PWR097"
+			(at 128.27 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 128.27 40.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 128.27 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20223ef7-67d4-49e7-9514-e182a08352f0")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03733a1-5563-42f6-8095-5bd853ff3ee2")
+		(property "Reference" "#PWR085"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 85.09 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c87b8257-88d0-4934-8add-f30e9fc121ef")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 80.01 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0afbcee-93b4-427a-9e50-b54a177f8aa5")
+		(property "Reference" "#PWR076"
+			(at 80.01 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 133.35 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb43f512-96cd-4d70-8dc7-9ee8d1b1b0de")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APEX_Symbols:BMP581")
-		(at 106.68 123.19 0)
+		(at 62.23 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3040,7 +7079,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbe0accd-20e8-4f3b-8773-7b3da75bdf57")
 		(property "Reference" "U4"
-			(at 106.68 107.95 0)
+			(at 62.23 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3050,7 +7089,7 @@
 			)
 		)
 		(property "Value" "BMP581"
-			(at 106.68 110.49 0)
+			(at 62.23 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3060,7 +7099,7 @@
 			)
 		)
 		(property "Footprint" "APEX_FOOTPRINTS:BMP581_QFN10_BOS"
-			(at 106.68 139.7 0)
+			(at 62.23 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3072,7 +7111,7 @@
 			)
 		)
 		(property "Datasheet" "BMP581"
-			(at 106.68 137.16 0)
+			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +7123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 123.19 0)
+			(at 62.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +7134,7 @@
 			)
 		)
 		(property "LCSC" "C5362283"
-			(at 106.68 142.24 0)
+			(at 62.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,6 +7178,911 @@
 			(project "apex-control-2026"
 				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 100.33 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde0f850-01bf-41db-89a5-b24fbcf29494")
+		(property "Reference" "#PWR096"
+			(at 100.33 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16e4f177-b35c-4866-8a1b-f3ceeee6a23e")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 137.16 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bea0c407-0354-4d71-907b-a25c864f4a00")
+		(property "Reference" "C70"
+			(at 134.874 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 134.874 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby PIn" "VS"
+			(at 132.842 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93a262c0-e109-4d31-a537-4f0908f7cf98")
+		)
+		(pin "2"
+			(uuid "a768e63c-df26-4948-bae5-953d22da81c7")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 128.27 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c170ca35-f496-4256-9d91-975590a5b535")
+		(property "Reference" "#PWR0100"
+			(at 128.27 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 128.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02f45d44-f299-41fa-9c3b-4f7b0fcbf4f1")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 78.74 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c90d1c36-d7ca-4878-bc9a-b1b0842f5239")
+		(property "Reference" "#PWR0105"
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 78.74 40.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acb433a4-0771-488d-965e-8def38530595")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 43.18 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf51adce-a03a-44f0-958a-32fca562c708")
+		(property "Reference" "#PWR0106"
+			(at 43.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 82.55 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff9fcc70-ec7a-48bd-aef2-5e6581b9ec29")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 128.27 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ca10c0-202d-4b52-ae34-ceb6f0c9add1")
+		(property "Reference" "#PWR082"
+			(at 128.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 138.43 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 128.27 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb491405-3f0c-4d0e-9695-39cdf57b5deb")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:C")
+		(at 55.88 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db80b511-6a93-491c-9188-d864edf3b3b2")
+		(property "Reference" "C35"
+			(at 53.594 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.594 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic capacitor"
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nearby PIn" "VDD"
+			(at 51.562 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bf0a551-514e-44fb-b790-b784fd2ab0ef")
+		)
+		(pin "2"
+			(uuid "e63873a8-171f-4c25-a562-715cd338fdd8")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3")
+		(at 237.49 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc3e360a-3bd6-4400-ac07-b3f996485c03")
+		(property "Reference" "#PWR067"
+			(at 237.49 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 238.506 48.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 237.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa9ddb32-07f5-4c6b-ae8a-5542c09d12fa")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 44.45 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8393ea2-ec24-40b5-b720-2cafea8da0c5")
+		(property "Reference" "#PWR081"
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 44.45 100.33 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 44.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cbce136-94bb-4bc9-9162-4fae5576a1e2")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:+3V3_1")
+		(at 50.8 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee493945-2eac-4753-ab18-1ae936fca2f1")
+		(property "Reference" "#PWR089"
+			(at 50.8 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_1"
+			(at 50.8 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_1\": 3.3 V rail 1 (separately switched or regulated 3.3 V)"
+			(at 50.8 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7e54231-8bda-4eca-a49b-51f69a8d5ef4")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APEX_Symbols:GND")
+		(at 44.45 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eedf5171-f902-4a75-998d-939453656efb")
+		(property "Reference" "#PWR077"
+			(at 44.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 133.35 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 44.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a528e4d-0281-41e2-9699-732179510619")
+		)
+		(instances
+			(project "apex-control-2026"
+				(path "/e82f86d1-bc15-466a-bf95-b7a389511473/a912d47f-a9b3-4130-8881-34bdbfe7cadb"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

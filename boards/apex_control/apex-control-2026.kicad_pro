@@ -549,30 +549,51 @@
         "wire_width": 6
       },
       {
-        "name": "CS",
+        "name": "+1V8",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "+3V3_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgb(132, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "CS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)",
         "tuning_profile": ""
       },
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgb(0, 0, 194)",
         "tuning_profile": ""
       },
       {
         "name": "Interrupt",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgb(221, 133, 0)",
         "tuning_profile": ""
       },
       {
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 194)",
         "tuning_profile": ""
       }
@@ -666,6 +687,18 @@
       {
         "netclass": "I2C",
         "pattern": "/S(CL|DA)"
+      },
+      {
+        "netclass": "+1V8",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "+3V3_1",
+        "pattern": "+3V3_1"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
       }
     ]
   },
@@ -822,7 +855,7 @@
         "uuid": "e82f86d1-bc15-466a-bf95-b7a389511473"
       }
     ],
-    "used_designators": "#PWR2-15,#PWR40-106,L1-2,C1-11,C22-71,R1,R22-24,J1-4,Y1,Y3,U1-12,FB1",
+    "used_designators": "#PWR2-15,#PWR40-106,L1-2,C1-11,C22-72,R1,R22-29,J1-4,Y1,Y3,U1-12,FB1,SW1,D1-3",
     "variants": []
   },
   "sheets": [

@@ -18882,7 +18882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "APEX_FOOTPRINTS:L_0402"
 			(at 39.37 147.32 0)
 			(hide yes)
 			(show_name no)

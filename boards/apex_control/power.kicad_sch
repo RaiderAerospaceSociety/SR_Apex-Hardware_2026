@@ -14772,7 +14772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "APEX_FOOTPRINTS:Header-1x02"
 			(at 214.63 38.1 0)
 			(hide yes)
 			(show_name no)

@@ -2066,6 +2066,135 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "+V_BUCK"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_BUCK"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+V_BUCK\": RTMC 5V Buck Rail"
+			(at -0.254 -9.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power rail"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+V_BUCK_0_1"
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+V_BUCK_1_1"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 0 -1.27) (xy 1.27 -2.54) (xy -1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin power_in line
+				(at 0 -3.81 0)
+				(length 0)
+				(hide yes)
+				(name "+1V0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "+V_DCDC_ANA"
 		(power global)
 		(pin_numbers
@@ -2177,7 +2306,7 @@
 				(at 0 -3.81 0)
 				(length 0)
 				(hide yes)
-				(name "+VM"
+				(name "+V_DCDC_ANA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2306,7 +2435,7 @@
 				(at 0 -3.81 0)
 				(length 0)
 				(hide yes)
-				(name "+VM"
+				(name "+V_DCDC_DIG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2435,7 +2564,7 @@
 				(at 0 -3.81 0)
 				(length 0)
 				(hide yes)
-				(name "+VM"
+				(name "+V_USB"
 					(effects
 						(font
 							(size 1.27 1.27)
